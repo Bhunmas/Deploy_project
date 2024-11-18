@@ -26,7 +26,7 @@ function MyRouter() {
     <BrowserRouter>
         <Routes>
             
-            <Route path="/FrontEnd_POS_Project" element={<App />}>
+            <Route path="/" element={<App />}>
                 <Route index element={<HomePage />}  />
                 <Route   path="User"  element={<Userpage />}/>
 
