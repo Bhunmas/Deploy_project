@@ -9,8 +9,8 @@ export default defineConfig({
     // watch: {
     //  usePolling: true,
     // },
-    host: true, // Here
-    port:5000
+    host: "0.0.0.0", // Here
+    port:10000
     // strictPort: true,
  
   }
