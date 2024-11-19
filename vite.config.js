@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base:'/MilkTea/',
   server: {
+    strictPort:true
     // watch: {
     //  usePolling: true,
     // },
