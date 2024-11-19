@@ -9,4 +9,4 @@ sample-app:
       - '.:/usr/src/app'
       - '/usr/src/app/node_modules'
     ports:
-      - '10000:10000'
+      - '5173:5173'
