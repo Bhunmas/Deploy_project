@@ -5,15 +5,15 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:'/MilkTea/',
-  server: {
-    strictPort:true
-    // watch: {
-    //  usePolling: true,
-    // },
-    // host: "0.0.0.0", // Here
-    // port:10000
-    // strictPort: true,
- 
-  }
+  preview: {
+    port: 8080,
+    strictPort: true,
+  },
+   server: {
+    port: 8080,
+    strictPort: true,
+    host: true,
+    origin: "http://0.0.0.0:8080",
+   },
 
 })
