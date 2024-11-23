@@ -8,12 +8,12 @@ export default defineConfig({
   preview: {
     port: 8010,
     strictPort: true,
-    host:"https://deploy-project-yibo.onrender.com"
+    // host:"https://deploy-project-yibo.onrender.com"
   },
    server: {
     port: 8010,
     strictPort: true,
-    host: "https://deploy-project-yibo.onrender.com",
+    // host: "https://deploy-project-yibo.onrender.com",
 
    },
 
